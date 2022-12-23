@@ -401,7 +401,6 @@ export default {
       difference -= this.counterMinute * 60;
       this.counterSecond = Math.floor(difference % 60);
 
-      // this.counterDay = this.parseNumber(this.counterDay);
       this.counterDay = this.counterDay;
       this.counterHour = this.parseNumber(this.counterHour);
       this.counterMinute = this.parseNumber(this.counterMinute);
