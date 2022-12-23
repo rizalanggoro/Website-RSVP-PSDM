@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "bright-summer"; /*a name to be used later*/
+  src: url("./assets/fonts/BrightSummerDemoRegular.ttf"); /*URL to font*/
+}
+
+@layer components {
+  .text-time-counter {
+    @apply select-none text-xl font-bold text-wave md:text-4xl  lg:text-6xl;
+  }
+  .text-time-counter-caption {
+    @apply select-none text-sm text-wave;
+  }
+  .container-text-time-counter {
+    @apply w-14 bg-sand py-2 text-center md:w-20 lg:w-24;
+  }
+  .container-text-time-counter-dot {
+    @apply w-4 select-none bg-sand py-2 text-center md:w-6 lg:w-8;
+  }
+  .container-caption-counter {
+    @apply mt-2 w-14 select-none rounded-md bg-[#fef9e2] py-1 text-center text-sm text-wave shadow md:w-20 lg:w-24;
+  }
+  .spacer-caption-counter {
+    @apply w-4 md:w-6 lg:w-8;
+  }
+}

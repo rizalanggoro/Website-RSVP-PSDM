@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "bonfire-f4e9f"
+  },
+  "targets": {
+    "bonfire-f4e9f": {
+      "hosting": {
+        "rsvp-psdm": [
+          "rsvp-psdm"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
